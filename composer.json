@@ -1,0 +1,19 @@
+{
+    "name": "macbookpro/projet-transport",
+    "autoload": {
+        "psr-4": {
+            "Router\\": "routes/",
+            "App\\": "app/",
+            "Database\\": "database/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mahf-TB",
+            "email": "mahefatsilavirintsoa@gmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^2.0"
+    }
+}
