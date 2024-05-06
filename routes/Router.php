@@ -34,7 +34,6 @@ class Router
                 return;
             }
         }
-
         return header('HTTP/1.1 404 NOT Found');
     }
 }
